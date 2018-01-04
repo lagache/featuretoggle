@@ -1,13 +1,11 @@
-## Buy versus rent project 
+## Feature toggle project 
 
-Project created by lagache (MIT license)
-
-Demo available at https://lagache.github.io/buy-versus-rent/
+Project created by lagache
 
 ## Get started
 
 ### Clone the repository
-$> git clone https://github.com/lagache/buy-versus-rent.git buy-versus-rent
+$> git clone https://github.com/lagache/featuretoggle.git featuretoggle
 
 ### Install dependencies
 $> yarn install
@@ -28,7 +26,7 @@ $> yarn start
 
 ## Folder Structure
 
-buy-versus-rent/
+featuretoggle/
   README.md
   node_modules/
   package.json
@@ -41,15 +39,13 @@ buy-versus-rent/
     App.test.js
     index.css
     index.js
-    logo.svg
-    chart/
       ...
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `yarn start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -57,12 +53,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
+### `yarn test`
 
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](#running-tests) for more information.
 
-### `npm run build`
+### `yarn run build`
 
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
